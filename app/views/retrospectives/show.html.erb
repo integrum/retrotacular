@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @retrospective.name %>
+</p>
+
+<p>
+  <strong>Set stage:</strong>
+  <%= @retrospective.set_stage %>
+</p>
+
+<p>
+  <strong>Gather data:</strong>
+  <%= @retrospective.gather_data %>
+</p>
+
+<p>
+  <strong>Generate insights:</strong>
+  <%= @retrospective.generate_insights %>
+</p>
+
+<p>
+  <strong>Decide what to do:</strong>
+  <%= @retrospective.decide_what_to_do %>
+</p>
+
+<p>
+  <strong>Close:</strong>
+  <%= @retrospective.close %>
+</p>
+
+<%= link_to 'Edit', edit_retrospective_path(@retrospective) %> |
+<%= link_to 'Destroy', @retrospective, method: :delete, data: { confirm: 'Are you sure?' } %> |
+<%= link_to 'Back', retrospectives_path %>

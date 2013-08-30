@@ -1,0 +1,13 @@
+<h1>Listing retrospectives</h1>
+
+<ul class="list-group">
+  <% @retrospectives.each do |retrospective| %>
+    <li class="list-group-item">
+      <%= link_to retrospective.name, retrospective %>
+    </li>
+  <% end %>
+</ul>
+
+<br>
+
+<%= link_to 'New Retrospective', new_retrospective_path %>

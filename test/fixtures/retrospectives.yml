@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  set_stage: MyText
+  gather_data: MyText
+  generate_insights: MyText
+  decide_what_to_do: MyText
+  close: MyText
+
+two:
+  name: MyString
+  set_stage: MyText
+  gather_data: MyText
+  generate_insights: MyText
+  decide_what_to_do: MyText
+  close: MyText
